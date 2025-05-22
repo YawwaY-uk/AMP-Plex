@@ -1,0 +1,58 @@
+[
+    {
+        "Protocol": "TCP",
+        "Port": "32400",
+        "Name": "32400",
+        "Description": "Port used for main game traffic",
+        "Ref": "32400"
+    },
+    {
+        "Protocol": "UDP",
+        "Port": "32410",
+        "Name": "Mobile/tv",
+        "Description": "Port used for main game traffic",
+        "Ref": "Mobiletv"
+    },
+    {
+        "Protocol": "UDP",
+        "Port": "32411",
+        "Name": "Mobile/tv",
+        "Description": "Port used for main game traffic",
+        "Ref": "Mobiletv"
+    },
+    {
+        "Protocol": "UDP",
+        "Port": "32412",
+        "Name": "Mobile/tv",
+        "Description": "Port used for main game traffic",
+        "Ref": "Mobiletv"
+    },
+    {
+        "Protocol": "UDP",
+        "Port": "32413",
+        "Name": "Mobile/tv",
+        "Description": "Port used for main game traffic",
+        "Ref": "Mobiletv"
+    },
+    {
+        "Protocol": "UDP",
+        "Port": "32414",
+        "Name": "Mobile/tv",
+        "Description": "Port used for main game traffic",
+        "Ref": "Mobiletv"
+    },
+    {
+        "Protocol": "UDP",
+        "Port": "1900",
+        "Name": "Mobile/tv",
+        "Description": "Port used for main game traffic",
+        "Ref": "Mobiletv"
+    },
+    {
+        "Protocol": "TCP",
+        "Port": "32469",
+        "Name": "Mobile/tv",
+        "Description": "Port used for main game traffic",
+        "Ref": "Mobiletv"
+    }
+]

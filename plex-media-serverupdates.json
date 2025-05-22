@@ -1,0 +1,35 @@
+[
+    {
+        "UpdateStageName": "Get Executeable",
+        "UpdateSourcePlatform": "Windows",
+        "UpdateSource": "FetchURL",
+        "UpdateSourceData": "https://plex.tv/downloads/latest/5?channel=public&build=windows-x86_64&distro=win",
+        "UpdateSourceTarget": "serverFiles",
+        "UnzipUpdateSource": false,
+        "OverwriteExistingFiles": true,
+        "DeleteAfterExtract": false,
+        "OneShot": true
+    },
+    {
+        "UpdateStageName": "Rename Installer",
+        "UpdateSourcePlatform": "Windows",
+        "UpdateSource": "Executable",
+        "UpdateSourceData": "powershell",
+        "UpdateSourceArgs": "-Command \"Rename-Item -Path (Get-ChildItem 'serverFiles\\*.exe').FullName -NewName 'plex_latest.exe'\"",
+        "UnzipUpdateSource": false,
+        "OverwriteExistingFiles": false,
+        "DeleteAfterExtract": true,
+        "OneShot": false
+    },
+    {
+        "UpdateStageName": "Install Plex",
+        "UpdateSourcePlatform": "Windows",
+        "UpdateSource": "Executable",
+        "UpdateSourceData": "serverFiles/plex_latest.exe",
+        "UpdateSourceArgs": "/quiet",
+        "UnzipUpdateSource": false,
+        "OverwriteExistingFiles": false,
+        "DeleteAfterExtract": true,
+        "OneShot": true
+    }
+]
