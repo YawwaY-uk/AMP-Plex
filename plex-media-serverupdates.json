@@ -1,6 +1,6 @@
 [
     {
-        "UpdateStageName": "Get Executeable",
+        "UpdateStageName": "Get Executable",
         "UpdateSourcePlatform": "Windows",
         "UpdateSource": "FetchURL",
         "UpdateSourceData": "https://plex.tv/downloads/latest/5?channel=public&build=windows-x86_64&distro=win",
